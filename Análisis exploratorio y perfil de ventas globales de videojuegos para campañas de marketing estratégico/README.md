@@ -1,4 +1,4 @@
-🎮 **Análisis de Ventas de Videojuegos – Predicción de Éxito y Tendencias del Mercado**
+**<h1>**🎮 **Análisis de Ventas de Videojuegos – Predicción de Éxito y Tendencias del Mercado****</h1>**
 
 Este proyecto analiza datos históricos de ventas de videojuegos para identificar patrones que permitan predecir el éxito comercial de un título y planificar campañas publicitarias más efectivas.
 
