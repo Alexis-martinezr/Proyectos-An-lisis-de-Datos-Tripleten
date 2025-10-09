@@ -1,138 +1,90 @@
-# 📊 Portafolio de Proyectos de Análisis de Datos – TripleTen
+# 📊 Portafolio de Proyectos de Análisis de Datos – Alexis Gerardo Martínez Rangel
 
-Este repositorio reúne los **proyectos de análisis de datos** que he realizado como parte del programa **TripleTen Data Analyst**, incluyendo **análisis exploratorios, pruebas A/B, priorización de hipótesis y estudios de comportamiento de usuarios** en aplicaciones, plataformas de música y tiendas online.
-
-Cada proyecto muestra el **flujo completo de trabajo**: descripción de los datos, preprocesamiento, análisis, visualización y conclusiones.
+Bienvenido a mi portafolio de proyectos de análisis de datos. Este repositorio reúne 11 proyectos desarrollados en el marco de estudios y experiencias prácticas, abordando análisis de datos, estadística inferencial, pruebas A/B, machine learning, clustering y visualización de datos. Cada proyecto incluye un enfoque integral desde la exploración hasta la interpretación de resultados, utilizando herramientas avanzadas de Python.
 
 ---
 
-## 📂 Proyectos Incluidos
+## 🔹 Proyectos Destacados
 
-### 1️⃣ Déjame Escuchar la Música
-**Carpeta:** `music_streaming_analysis`  
-**Descripción:** Análisis de hábitos de consumo musical en Springfield y Shelbyville.  
-**Técnicas:** Agrupamiento de datos, conteo de reproducciones, filtrado por ciudad y día.  
-**Resultados y Observaciones:** Springfield más activo lunes y viernes; Shelbyville más activo miércoles; patrones similares lunes y viernes.  
-**Conclusiones:** Diferencias y coincidencias entre ciudades; se recomienda análisis estadístico más profundo para confirmar tendencias.  
-**Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn
+### 1. 🚖 Análisis de Datos de Taxis en Chicago (2025)
+**Objetivo:** Identificar patrones de transporte urbano, compañías más activas y barrios con mayor número de llegadas. Evaluar el efecto de las condiciones climáticas en la duración de los viajes.  
+**Métodos:** Análisis exploratorio de datos, visualización y prueba t de Student.  
+**Resultados clave:**  
+- Flash Cab, Taxi Affiliation Service y Medallion Leasing fueron las empresas más activas.  
+- Los barrios Loop y River North concentraron la mayoría de las llegadas.  
+- Se comprobó que los sábados lluviosos incrementan la duración promedio de los viajes.  
+**Tecnologías:** Python, pandas, NumPy, Matplotlib, Seaborn, SciPy.
 
----
+### 2. 🏋️ Predicción de Permanencia de Clientes – Model Fitness (2025)
+**Objetivo:** Predecir abandonos de clientes y proponer estrategias de retención en una cadena de gimnasios.  
+**Métodos:** Modelos de predicción, análisis de clustering, segmentación de clientes.  
+**Resultados clave:**  
+- Identificación de clusters de alto y bajo riesgo de abandono.  
+- Recomendaciones de promociones y contratos más largos para mejorar la retención.  
+**Tecnologías:** Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn, Jupyter Notebook.
 
-### 2️⃣ Análisis de Embudo de Ventas y Test A/A/B – Productos Alimenticios
-**Carpeta:** `sales_funnel_aa_b_test`  
-**Descripción:** Estudio del comportamiento de usuarios en una app de productos alimenticios, embudo de ventas y test A/A/B sobre diseño de fuentes.  
-**Técnicas:** Preprocesamiento de logs, filtrado, análisis de embudo, test estadístico entre grupos.  
-**Resultados y Observaciones:** La mayoría de los usuarios se pierden en la pantalla de ofertas; solo 29.5% completó todos los pasos hasta la compra. No se observaron diferencias significativas entre grupos de control y prueba.  
-**Conclusiones:** Diseño de fuentes no afectó el comportamiento; se necesita más data para conclusiones robustas.  
-**Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn
+### 3. 📈 Priorización de Hipótesis y Test A/B (2025)
+**Objetivo:** Optimizar ingresos en una tienda online mediante priorización de hipótesis y análisis de un test A/B.  
+**Métodos:** Frameworks ICE y RICE para priorización, análisis estadístico de test A/B.  
+**Resultados clave:**  
+- Hipótesis 0, 2 y 8 fueron las más efectivas según ICE y RICE.  
+- El grupo B del test A/B generó mayor ingreso acumulado y mejor conversión.  
+**Tecnologías:** Python, pandas, NumPy, Matplotlib, Seaborn, SciPy.
 
----
+### 4. 📞 Identificación de Operadores Ineficaces — CallMeMaybe (2025)
+**Objetivo:** Detectar operadores de call center con bajo desempeño y establecer métricas objetivas.  
+**Métodos:** Análisis exploratorio, estadística inferencial, clustering (K-means/jerárquico).  
+**Resultados clave:**  
+- Identificación del 10% de operadores con peor desempeño.  
+- Validación parcial de la hipótesis sobre relación entre tiempo de espera y llamadas perdidas.  
+**Tecnologías:** Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn.
 
-### 3️⃣ Priorización de Hipótesis y Test A/B – Tienda Online
-**Carpeta:** `hypotheses_ab_test`  
-**Descripción:** Priorización de hipótesis para aumentar ingresos y análisis de test A/B.  
-**Técnicas:** Frameworks ICE y RICE, métricas acumuladas, tasa de conversión, outliers, pruebas estadísticas.  
-**Resultados y Observaciones:**  
-- Hipótesis 0, 7, 8 y 2 mostraron mejores scores ICE y RICE.  
-- Grupo B tuvo mayor ingreso acumulado y tasa de conversión; tamaño promedio de pedido similar.  
-**Conclusiones:** Adoptar estrategia B basada en retención y conversión; priorizar hipótesis de alto impacto y bajo esfuerzo.  
-**Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy
+### 5. 🧪 Prueba A/B – Sistema de Recomendaciones (2020–2021)
+**Objetivo:** Evaluar la eficacia de un nuevo sistema de recomendaciones en una tienda online.  
+**Métodos:** Análisis estadístico, pruebas de proporciones (z-test), validación de consistencia de datos.  
+**Resultados clave:**  
+- Se detectaron sesgos y errores de segmentación que impidieron concluir sobre la efectividad del sistema.  
+- Recomendación: realizar nueva prueba con grupos balanceados y fechas apropiadas.  
+**Tecnologías:** Python, pandas, NumPy, Matplotlib, Seaborn, SciPy.
 
----
+### 6. 📊 Análisis de Visitas y Ventas — Showz (2017–2018)
+**Objetivo:** Evaluar tendencias de ventas y visitas en eventos, identificando patrones de comportamiento de clientes.  
+**Métodos:** EDA, visualización y segmentación de datos.  
+**Resultados clave:** Identificación de patrones de asistencia y correlación con ventas.
 
-### 4️⃣ Análisis de Datos de Taxis en Chicago
-**Carpeta:** `chicago_taxi_analysis`  
-**Descripción:** Análisis histórico de viajes en taxi para identificar patrones, compañías activas y barrios con más llegadas.  
-**Técnicas:** Limpieza de datos, visualización, prueba t de Student.  
-**Resultados y Observaciones:** Flash Cab más activa; barrios Loop y River North con mayor tráfico; la lluvia los sábados aumenta duración de viajes hacia O’Hare.  
-**Conclusiones:** Mejorar planificación según clima y horarios pico.  
-**Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy
+### 7. 💻 Análisis de Ingresos y Comportamiento de Clientes — Megaline
+**Objetivo:** Analizar ingresos y comportamiento de clientes para optimizar estrategias de retención y ventas.  
+**Métodos:** Análisis estadístico y segmentación.  
+**Resultados clave:** Determinación de clientes de alto valor y recomendaciones de fidelización.
 
----
+### 8. 🎵 Déjame Escuchar la Música
+**Objetivo:** Analizar preferencias y patrones de escucha de los usuarios de una plataforma musical.  
+**Métodos:** Clustering, análisis exploratorio y visualización.  
+**Resultados clave:** Segmentación de usuarios según hábitos de escucha y recomendaciones personalizadas.
 
-### 5️⃣ Análisis de Comportamiento Musical – Extendido
-**Carpeta:** `music_behavior_extended`  
-**Descripción:** Profundización en hábitos musicales por ciudad y día.  
-**Técnicas:** Agrupamiento múltiple, tendencias y visualización de frecuencias.  
-**Resultados y Observaciones:** Springfield lunes/viernes, Shelbyville miércoles; patrones similares lunes/viernes.  
-**Conclusiones:** Útil para recomendaciones y marketing personalizado.  
-**Tecnologías:** Python, Pandas, Matplotlib, Seaborn
+### 9. 🍽️ Análisis Comportamiento Usuarios — Productos Alimenticios
+**Objetivo:** Evaluar patrones de consumo y hábitos de clientes en línea.  
+**Métodos:** EDA, visualización y modelado de comportamiento.  
+**Resultados clave:** Identificación de productos más populares y correlaciones con comportamiento de compra.
 
----
+### 10. 🛒 Análisis de Pedidos — Instacart
+**Objetivo:** Analizar datos de pedidos para identificar patrones de compra y recomendaciones.  
+**Métodos:** EDA, estadísticas descriptivas y segmentación.  
+**Resultados clave:** Patrones de compra repetida y productos más frecuentemente adquiridos juntos.
 
-### 6️⃣ Análisis de Embudos de Eventos y Conversión – Apps de Consumo
-**Carpeta:** `event_funnel_analysis`  
-**Descripción:** Estudio del flujo de usuarios en etapas de interacción con la app.  
-**Técnicas:** Conteo de eventos, proporciones de usuarios entre etapas, identificación de pérdidas críticas.  
-**Resultados y Observaciones:** Mayor pérdida en pantalla de ofertas; tutorial completado solo por 0.79 de usuarios.  
-**Conclusiones:** Optimizar pantallas críticas para reducir abandono.  
-**Tecnologías:** Python, Pandas, Matplotlib, Seaborn
-
----
-
-### 7️⃣ Test A/A/B Detallado – Validación de Experimentos
-**Carpeta:** `aa_b_test_validation`  
-**Descripción:** Validación de diseño experimental con dos grupos de control y un grupo de prueba.  
-**Técnicas:** Comparación de proporciones de eventos, significancia estadística entre grupos, análisis de retención.  
-**Resultados y Observaciones:** No hay diferencias significativas entre grupos de control; grupo B con mayores ventas por mayor número de usuarios.  
-**Conclusiones:** Experimento confiable; diseño de fuentes no afecta conducta de usuario.  
-**Tecnologías:** Python, Pandas, NumPy, SciPy
-
----
-
-### 8️⃣ Priorización RICE vs ICE – Hipótesis de Tienda Online
-**Carpeta:** `rice_vs_ice_prioritization`  
-**Descripción:** Comparación de frameworks ICE y RICE para priorizar hipótesis sobre incremento de ingresos.  
-**Técnicas:** Cálculo de puntuaciones ICE y RICE, análisis de impacto vs esfuerzo vs alcance.  
-**Resultados y Observaciones:** Hipótesis 7 tuvo mayor RICE debido al alcance, aunque su impacto podría ser percibido como negativo por usuarios.  
-**Conclusiones:** Priorizar hipótesis con alto ICE y RICE, considerando riesgos y experiencia de usuario.  
-**Tecnologías:** Python, Pandas, NumPy, Matplotlib
+### 11. 🎮 Análisis de Ventas de Videojuegos
+**Objetivo:** Predecir éxito de videojuegos y evaluar tendencias del mercado.  
+**Métodos:** Análisis de ventas históricas, visualización y predicción de tendencias.  
+**Resultados clave:** Identificación de factores clave que determinan el éxito de un juego.
 
 ---
 
-### 9️⃣ Análisis de Conversión y Retención de Usuarios
-**Carpeta:** `conversion_retention_analysis`  
-**Descripción:** Estudio de tasas de conversión y retención por grupo de prueba.  
-**Técnicas:** Visualización acumulativa de ingresos y conversión, outliers, percentiles, pruebas estadísticas.  
-**Resultados y Observaciones:** Grupo B mayor ingreso y retención; tamaño de pedidos similar entre grupos.  
-**Conclusiones:** Adoptar estrategia B; optimizar retención.  
-**Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy
+## 🛠️ Tecnologías y Herramientas
+- **Lenguajes y Librerías:** Python, pandas, NumPy, Matplotlib, Seaborn, SciPy, scikit-learn, Jupyter Notebook.  
+- **Técnicas Analíticas:** EDA, clustering, pruebas A/B, análisis estadístico, modelado predictivo, segmentación de clientes, visualización de datos.
 
 ---
 
-### 1️⃣0️⃣ Test A/B – Visualización y Métricas
-**Carpeta:** `ab_test_metrics`  
-**Descripción:** Evaluación de ingresos, tamaño de pedido y conversión en test A/B.  
-**Técnicas:** Gráficos acumulativos, dispersión, percentiles, filtrado de datos anómalos, significancia estadística.  
-**Resultados y Observaciones:** Ingreso y conversión mayores en grupo B; no hay diferencia en tamaño de pedido.  
-**Conclusiones:** Confirmación de la estrategia B como ganadora.  
-**Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy
-
----
-
-### 1️⃣1️⃣ Análisis Global de Proyectos TripleTen
-**Carpeta:** `tripleten_global_analysis`  
-**Descripción:** Resumen de los 10 proyectos anteriores, integrando conclusiones, patrones y resultados de experimentos.  
-**Técnicas:** Integración de resultados, comparación de métricas y aprendizaje general de los experimentos.  
-**Conclusiones:** Los proyectos muestran la importancia de la retención, priorización de hipótesis y análisis estadístico robusto en la toma de decisiones basadas en datos.  
-**Tecnologías:** Python, Pandas, NumPy, Matplotlib, Seaborn, SciPy
-
----
-
-## 🛠️ Tecnologías utilizadas en todos los proyectos
-
-- **Python**  
-- **Pandas, NumPy**  
-- **Matplotlib, Seaborn**  
-- **SciPy**  
-- **Jupyter Notebook**  
-- **Git / GitHub**
-
----
-
-## 🚀 Próximos pasos
-
-- Validar hipótesis y experimentos con datasets adicionales.  
-- Explorar técnicas de machine learning avanzadas para predicción de comportamiento de usuarios.  
-- Mejorar visualizaciones y documentación en cada proyecto.  
-- Integrar métricas de negocio para medir impacto real de cada estrategia.
+## 👤 Autor
+**Alexis Gerardo Martínez Rangel**  
+TripleTen Data Analyst Program
