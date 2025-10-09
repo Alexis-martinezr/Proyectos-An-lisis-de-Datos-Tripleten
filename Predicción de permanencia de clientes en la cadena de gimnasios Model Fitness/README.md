@@ -1,4 +1,4 @@
-🏋️ **Predicción de Permanencia de Clientes – Model Fitness**
+**<h1>**🏋️ **Predicción de Permanencia de Clientes – Model Fitness****</h1>**
 
 Este proyecto analiza la retención de clientes de la cadena de gimnasios Model Fitness, utilizando datos de perfiles y comportamiento de los usuarios para predecir abandonos y generar estrategias de retención.
 
