@@ -1,4 +1,4 @@
-🛒 **Análisis de Datos de Pedidos de Instacart**
+**<h1>**🛒 **Análisis de Datos de Pedidos de Instacart****</h1>**
 
 Este proyecto consiste en un análisis exploratorio de datos (EDA) sobre un conjunto de datos de la plataforma de entregas de comestibles Instacart, con el objetivo de identificar patrones de compra, preferencias de los usuarios y comportamiento de reordenamiento de productos.
 
